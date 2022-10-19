@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ShieldWarnIcon } from '../icons'
+import { ShieldIcon } from '../icons'
 import { OutLink } from '../OutLink'
 import { Section } from './Section'
 
@@ -20,7 +20,7 @@ export function DescriptionSection(props: DescriptionSectionProps) {
     >
       {props.warning && (
         <div className="DescriptionSection-Warning">
-          <ShieldWarnIcon />
+          <ShieldIcon className="fill-yellow-700 dark:fill-yellow-300" />
           {props.warning}
         </div>
       )}

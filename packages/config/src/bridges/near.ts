@@ -64,7 +64,7 @@ export const near: Bridge = {
   },
   technology: {
     canonical: true,
-    category: 'Generic Bridge',
+    category: 'Hybrid',
     destination: ['Near', 'Aurora'],
     principleOfOperation: {
       name: 'Principle of operation',
